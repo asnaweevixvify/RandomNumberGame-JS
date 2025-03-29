@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:white;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 150px;
+    text-shadow: 2px 2px black;
+}
+.h1des{
+    font-family:'kanit','Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;;
+    color:white;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 10;
+    text-shadow: 2px 2px black;
+
+}
+.game{
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    margin-top: 50px;
+}
+.type{
+    width: 200px;
+    height: 60px;
+    margin-top: 30px;
+}
+.button{
+    width: 100px;
+    height: 50px;
+    margin-top: 30px;
+}
+.bgheart{
+    width: 500px;
+    height: 100px;
+    background-color:white;
+    margin-top: 30px;
+    border: 2px solid transparent;
+    border-radius: 20px;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+li{
+    list-style: none;
+    margin-left: 10px;
+}
+.h1low{
+    font-family:'kanit','Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;;
+    color:white;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 500;
+    margin-top: 50px;
+}
+.h1hi{
+    font-family:'kanit','Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;;
+    color:black;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+@media(max-width:450px){
+    .h1{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color:white;
+        font-size: 30px;
+        text-align: center;
+        margin-top: 100px;
+        text-shadow: 2px 2px black;
+    }
+    .h1des{
+        font-family:'kanit','Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;;
+        color:white;
+        font-size: 15px;
+        text-align: center;
+        margin-top: 10px;
+        font-weight: 10;
+        text-shadow: 2px 2px black;
+    }
+    .bgheart{
+        width: 350px;
+        height: 80px;
+        background-color:white;
+        margin-top: 30px;
+        border: 2px solid transparent;
+        border-radius: 20px;
+    }
+    li{
+        width: 80px;
+    }
+}
