@@ -31,8 +31,8 @@ function enterNum(){
                 title: "คุณชนะ!",
                 icon: "success",
                 draggable: true
-              });  
-              resetGame();      
+        });  
+        resetGame();      
         }
         if(life===0){
             Swal.fire({
