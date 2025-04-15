@@ -94,8 +94,8 @@ li{
         text-shadow: 2px 2px black;
     }
     .bgheart{
-        width: 350px;
-        height: 80px;
+        width: 300px;
+        height: 120px;
         background-color:white;
         margin-top: 30px;
         border: 2px solid transparent;
@@ -103,5 +103,14 @@ li{
     }
     li{
         width: 80px;
+    }
+    ul{
+        width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        display:grid;
+        grid-template-columns: repeat(auto-fit, minmax(30px, 1fr));
+        row-gap: 20px;
+        justify-content: center;
     }
 }
